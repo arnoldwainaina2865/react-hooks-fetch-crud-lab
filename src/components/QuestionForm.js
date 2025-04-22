@@ -6,7 +6,7 @@ function QuestionForm({ onAddQuestion }) {
     answers: ["", "", "", ""],
     correctIndex: 0,
   });
-
+// function
   function handleChange(event) {
     const { name, value } = event.target;
     if (name.startsWith("answer")) {
